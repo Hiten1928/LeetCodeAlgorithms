@@ -2,8 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import static com.sun.tools.javac.jvm.ByteCodes.ret;
-
 public class MaxSubArray {
 
     public int maxSubArray(int[] nums) {
