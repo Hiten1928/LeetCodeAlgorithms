@@ -13,9 +13,9 @@ class FlippingImage {
         int[][] invert =new int[A.length][A.length];
 
         for(int i=0;i<A.length;i++){
-            for(int j=0; j<A[i].length; j++){
+            for(int j=0; j<A.length; j++){
                 invert[i][j] = A[i][A.length - j- 1];
-                invert[i][j] = A[i][j] ==1? 0:1;
+                invert[i][j] = (invert[i][j] ==1)? 0:1;
 
                 System.out.println(A[i][j]);
             }
