@@ -9,14 +9,11 @@
  */
 
 public class MaxDepthTree {
-    public static int maxDepth(BinaryTreeNode root) {
+    public static int maxDepth(TreeNode root) {
         if(root ==null){
             return 0;
-        } else{
-            int leftLength = maxDepth(root.left);
-            int rightLength = maxDepth(root.right);
-            int maxHeight = Math.max(leftLength,rightLength) + 1;
-            return maxHeight;
+        }
+        return 1 + (Math.max(maxDepth(root.left), maxDepth(root.right)));
         }
 
     }

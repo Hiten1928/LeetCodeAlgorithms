@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="930509fa-a076-42b1-827c-ea0e103b4ff9" name="Default" comment="" />
+    <list default="true" id="930509fa-a076-42b1-827c-ea0e103b4ff9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/MaxDepthTree.java" afterPath="$PROJECT_DIR$/src/MaxDepthTree.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,6 +14,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="MaxDepthTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MaxDepthTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="73" lean-forward="false" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FlippingImage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FlippingImage.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -24,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeTrees.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MergeTrees.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MergeTrees.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
@@ -69,9 +81,9 @@
         <option value="$PROJECT_DIR$/src/IsomorphicStrings.java" />
         <option value="$PROJECT_DIR$/src/MaxSubArray.java" />
         <option value="$PROJECT_DIR$/src/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/MaxDepthTree.java" />
         <option value="$PROJECT_DIR$/src/FlippingImage.java" />
         <option value="$PROJECT_DIR$/src/MergeTrees.java" />
+        <option value="$PROJECT_DIR$/src/MaxDepthTree.java" />
       </list>
     </option>
   </component>
@@ -241,12 +253,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529551979159</updated>
       <workItem from="1529551989317" duration="13105000" />
-      <workItem from="1530533304001" duration="3278000" />
+      <workItem from="1530533304001" duration="3912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16383000" />
+    <option name="totallyTimeSpent" value="17017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
@@ -369,14 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxDepthTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FlippingImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -391,6 +395,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxDepthTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="73" lean-forward="false" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
           <folding />
         </state>
       </provider>
