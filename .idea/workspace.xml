@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="930509fa-a076-42b1-827c-ea0e103b4ff9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/FlippingImage.java" afterPath="$PROJECT_DIR$/src/FlippingImage.java" />
-    </list>
+    <list default="true" id="930509fa-a076-42b1-827c-ea0e103b4ff9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,24 +12,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="MaxDepthTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MaxDepthTree.java">
+      <file leaf-file-name="FlippingImage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FlippingImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#652#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlippingImage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FlippingImage.java">
+      <file leaf-file-name="MergeTrees.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MergeTrees.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#652#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="462">
+              <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,6 +71,7 @@
         <option value="$PROJECT_DIR$/src/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/MaxDepthTree.java" />
         <option value="$PROJECT_DIR$/src/FlippingImage.java" />
+        <option value="$PROJECT_DIR$/src/MergeTrees.java" />
       </list>
     </option>
   </component>
@@ -242,12 +241,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529551979159</updated>
       <workItem from="1529551989317" duration="13105000" />
-      <workItem from="1530533304001" duration="1057000" />
+      <workItem from="1530533304001" duration="2365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14162000" />
+    <option name="totallyTimeSpent" value="15470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
@@ -380,11 +379,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FlippingImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="198">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#652#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MergeTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
