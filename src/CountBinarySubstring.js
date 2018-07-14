@@ -21,7 +21,7 @@
  * @param {string} s
  * @return {number}
  */
-var countBinarySubstrings = function(s) {
+var countBinarySubstrings = function(s)  {
     var prevCurrentLength =0;
     var CurrLength = 1;
     var result = 0;
