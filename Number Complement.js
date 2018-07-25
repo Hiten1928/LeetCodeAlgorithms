@@ -18,10 +18,13 @@
  */
 var findComplement = function(num) {
     var nums = num.toString(2).split('');
-    var compliment = [];
-    for(var i=0; i<nums.length;i++){
-        compliment.push(nums[i]^1);
+    for(var i=0; i<nums.length; i++){
+        if(nums[i] !== '1'){
+            nums[i] = '1';
+            continue;
+        } 
+        nums[i] = '0';
     }
-    compliment = compliment.join('');
-    return parseInt(compliment, 2);
+    nums = nums.join('');
+    return parseInt(nums,2);
 };
