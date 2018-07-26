@@ -56,10 +56,10 @@ var NestedIterator = function(nestedList) {
                 flatten(nestedList[i].getList(), list);
             }
         }
+    };
         this.list = [];
         this.index = -1;
         flatten(nestedList, this.list);
-    };
 };
 
 
