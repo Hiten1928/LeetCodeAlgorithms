@@ -21,12 +21,10 @@
  */
 var findMedianSortedArrays = function(nums1, nums2) {
     var arr =[];
-    if(nums1.length === 0 && nums2.length === 0){
-        return 0.0;
-    }
-    if(nums1.length === 0){
-        arr = nums2;
-    } else if(nums2.length === 0){
+    if(nums1.length === 0 && nums2.length === 0){ return 0.0;}
+    if(nums1.length === 0){arr = nums2;} 
+    	else 
+    		if(nums2.length === 0){
         arr = nums1;
     }else{
     arr = nums1.concat(nums2);
