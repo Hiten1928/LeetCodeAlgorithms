@@ -22,15 +22,8 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-    var flag = false;
-    nums = nums.sort((a,b) => a-b);
-    if(nums.length === 0){ return false; }
-    for(var i=0;i<nums.length;i++){
-        if(nums[i] === nums[i+1]){
-            flag = true;
-            break;
-        }
-    }
-    return flag;
+    if(nums.length === 0) { return false; }
+    var set = new Set(nums);
+    return !(set.size === nums.length);
 };
 
