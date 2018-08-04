@@ -17,16 +17,17 @@ The length of input array is a positive integer and will not exceed 10,000
  * @return {number}
  */
 var findMaxConsecutiveOnes = function(nums) {
-    var result = 0,
-        count = 0;
-  for(num of nums){
-      if(num !== 1){
+    var result = 0;
+    var count = 0;
+  for(var i=0; i<nums.length; i++){
+    
+      if(nums[i] !== 1){
           count = 0;
           continue;
       }
       count++;
       result = result>count? result:count;
+      
   }  
     return result;
 };
-
