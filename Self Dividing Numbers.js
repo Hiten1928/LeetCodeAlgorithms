@@ -21,7 +21,8 @@ Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]
 var selfDividingNumbers = function(left, right) {
     var result = [];
     for(var i = left; i<right+1; i++){
-        if(i.toString().split('').every(val => i%parseInt(val) == 0)){
+        var new_num = i.toString().split('');
+        if(new_num.every(val => i%parseInt(val) == 0)){
             result.push(i);
             }
         }
