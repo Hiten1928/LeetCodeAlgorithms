@@ -22,26 +22,15 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-    if(nums.length === 0){
-        return false;
-    }
-    var map = {};
     var flag = false;
-    for(num of nums){
-        if(!map[num]){
-            map[num] = 1;
-        } else {
-            map[num] +=1;
-        }
-    }
-    for(key in map){
-        if(map[key] > 1){
+    nums = nums.sort((a,b) => a-b);
+    if(nums.length === 0){ return false; }
+    for(var i=0;i<nums.length;i++){
+        if(nums[i] === nums[i+1]){
             flag = true;
             break;
-        } else {
-            flag = false;
         }
     }
-    return flag
+    return flag;
 };
 
