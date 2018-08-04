@@ -1,20 +1,33 @@
-Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
+Given an integer, write a function to determine if it is a power of two.
 
-Example:
-Given num = 16, return true. Given num = 5, return false.
+Example 1:
+
+Input: 1
+Output: true 
+Explanation: 20 = 1
+Example 2:
+
+Input: 16
+Output: true
+Explanation: 24 = 16
+Example 3:
+
+Input: 218
+Output: false
+
 
 
 
 /**
- * @param {number} num
+ * @param {number} n
  * @return {boolean}
  */
-var isPowerOfFour = function(num) {
-    if(num == 0){
+var isPowerOfTwo = function(n) {
+    if(n == 0){
         return false;
     }
-    while (num % 4 == 0) {
-        num /= 4;
+    while (n % 2 == 0) {
+    n /= 2;
         }
-        return num == 1
+        return n == 1
 };
