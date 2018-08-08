@@ -8,7 +8,6 @@ Input: [3,2,3]
 Output: 3
 
 
-
 /**
  * @param {number[]} nums
  * @return {number}
