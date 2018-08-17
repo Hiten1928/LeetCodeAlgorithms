@@ -21,7 +21,9 @@ Output: 0
 var numJewelsInStones = function(J, S) {
     var count = 0
     for(var i=0;i<S.length; i++){
-        if(J.includes(S[i])){count++;}
+        if(J.includes(S[i])){
+            count++;
+        }
     }
     return count;
 };
