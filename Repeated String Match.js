@@ -13,16 +13,9 @@ Return 3, because by repeating A three times (“abcdabcdabcd”), B is a substr
  * @return {number}
  */
 var repeatedStringMatch = function(A, B) {
-     var i = 0;
-    if(A.includes(B)){
-        return 1;
-    }
-    while(true){
-        var concat = A.repeat(++i);
-        if(concat.includes(B)){
-            return i;
-        }else if(concat.length > 2*B.length){
-            return -1;
-        }
-    }
+    let count = Math.ceil(B.length/A.length);
+    let C = A.repeat(Math.ceil(B.length/A.length));
+    if(C.indexOf(B) > -1) return count;
+    if((C+A).indexOf(B) > -1) return count+1;
+    return -1;
 };
