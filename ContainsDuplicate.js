@@ -15,15 +15,14 @@
 // Input: [1,1,1,3,3,4,3,2,4,2]
 // Output: true
 
-
-
 /**
  * @param {number[]} nums
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-    if(nums.length === 0) { return false; }
-    var set = new Set(nums);
-    return !(set.size === nums.length);
-};
-
+  if (nums.length === 0) {
+    return false
+  }
+  var set = new Set(nums)
+  return !(set.size === nums.length)
+}

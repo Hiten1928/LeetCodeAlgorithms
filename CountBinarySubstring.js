@@ -15,36 +15,30 @@
 // Output: 4
 // Explanation: There are 4 substrings: "10", "01", "10", "01" that have equal number of consecutive 1's and 0's
 
-
-
 /**
  * @param {string} s
  * @return {number}
  */
-var countBinarySubstrings = function(s)  {
-    var prevCurrentLength =0;
-    var CurrLength = 1;
-    var result = 0;
-    
-    for(i=1;i<s.length;i++){
+var countBinarySubstrings = function(s) {
+  var prevCurrentLength = 0
+  var CurrLength = 1
+  var result = 0
 
-    	// Check the previous character and update the length if same
-        if(s.charAt(i) == s.charAt(i-1)){
-            CurrLength++;
-        }else{
-        	
-        	// give the original length as current length
-            prevCurrentLength = CurrLength;
-            CurrLength = 1;
-        }
-
-        //update the result whenever a substring is found
-        if(prevCurrentLength >= CurrLength)
-        {
-            result++;
-        }
+  for (i = 1; i < s.length; i++) {
+    // Check the previous character and update the length if same
+    if (s.charAt(i) == s.charAt(i - 1)) {
+      CurrLength++
+    } else {
+      // give the original length as current length
+      prevCurrentLength = CurrLength
+      CurrLength = 1
     }
-    
-    
-    return result;
-};
+
+    //update the result whenever a substring is found
+    if (prevCurrentLength >= CurrLength) {
+      result++
+    }
+  }
+
+  return result
+}

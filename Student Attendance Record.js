@@ -18,18 +18,17 @@
  * @return {boolean}
  */
 var checkRecord = function(s) {
-    var countA = 0;
-    var flag =false;
-    for(var i=0;i<s.length;i++){
-        if(s[i] == "L" && s[i] == s[i+1] && s[i+1] == s[i+2]){
-            flag = true;
-            
-        } else if(s[i] == "A"){
-            countA++;
-        }
+  var countA = 0
+  var flag = false
+  for (var i = 0; i < s.length; i++) {
+    if (s[i] == 'L' && s[i] == s[i + 1] && s[i + 1] == s[i + 2]) {
+      flag = true
+    } else if (s[i] == 'A') {
+      countA++
     }
-    if(countA > 1 || flag === true){
-        return false;
-    }
-    return true;
-};
+  }
+  if (countA > 1 || flag === true) {
+    return false
+  }
+  return true
+}

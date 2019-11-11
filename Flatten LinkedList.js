@@ -40,48 +40,44 @@ By calling next repeatedly until hasNext returns false, the order of elements re
  * };
  */
 
-
-
- 
 /**
  * @constructor
  * @param {NestedInteger[]} nestedList
  */
 var NestedIterator = function(nestedList) {
-    var flatten  = function(nestedList, list){
-        for(var i=0; i<nestedList.length; i++){
-            if(nestedList[i].isInteger()){
-                list.push(nestedList[i].getInteger())
-            } else {
-                flatten(nestedList[i].getList(), list);
-            }
-        }
-    };
-        this.list = [];
-        this.index = -1;
-        flatten(nestedList, this.list);
-};
-
+  var flatten = function(nestedList, list) {
+    for (var i = 0; i < nestedList.length; i++) {
+      if (nestedList[i].isInteger()) {
+        list.push(nestedList[i].getInteger())
+      } else {
+        flatten(nestedList[i].getList(), list)
+      }
+    }
+  }
+  this.list = []
+  this.index = -1
+  flatten(nestedList, this.list)
+}
 
 /**
  * @this NestedIterator
  * @returns {boolean}
  */
 NestedIterator.prototype.hasNext = function() {
-    return this.index < this.list.length -1;
-};
+  return this.index < this.list.length - 1
+}
 
 /**
  * @this NestedIterator
  * @returns {integer}
  */
 NestedIterator.prototype.next = function() {
-    this.index++;
-    return this.list[this.index];
-};
+  this.index++
+  return this.list[this.index]
+}
 
 /**
  * Your NestedIterator will be called like this:
  * var i = new NestedIterator(nestedList), a = [];
  * while (i.hasNext()) a.push(i.next());
-*/
+ */

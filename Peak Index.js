@@ -1,10 +1,9 @@
-Reverse a singly linked list.
+// Reverse a singly linked list.
 
-Example:
+// Example:
 
-Input: 1->2->3->4->5->NULL
-Output: 5->4->3->2->1->NULL
-
+// Input: 1->2->3->4->5->NULL
+// Output: 5->4->3->2->1->NULL
 
 /**
  * Definition for singly-linked list.
@@ -18,19 +17,19 @@ Output: 5->4->3->2->1->NULL
  * @return {ListNode}
  */
 var reverseList = function(head) {
-    if(head == null){
-        return null;
-    }
-    return reverse(head);
-};
- function reverse(node){
-let newhead;
-   let n = null;   
-    while(node != null){
-        newhead = new ListNode(node.val);
-        newhead.next = n;
-        n = newhead;
-        node = node.next;
-    }
-    return newhead;
+  if (head == null) {
+    return null
+  }
+  return reverse(head)
+}
+function reverse(node) {
+  let newhead
+  let n = null
+  while (node != null) {
+    newhead = new ListNode(node.val)
+    newhead.next = n
+    n = newhead
+    node = node.next
+  }
+  return newhead
 }
